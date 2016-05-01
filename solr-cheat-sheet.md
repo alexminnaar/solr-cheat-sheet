@@ -8,7 +8,11 @@
 ```./solr stop``` to stop
 
 ###Accessing Solr Admin
-```localhost:8983:/solr/admin```
+
+```url
+localhost:8983:/solr/admin
+```
+
 
 ###Querying from Admin
 Select core > Query
@@ -18,7 +22,9 @@ e.g. ```http://localhost:8983/solr/collection1/select?q=<query terms>&wt=<how to
 
 
 ###User Interface
-```http://localhost:8983/solr/browse```
+```url
+http://localhost:8983/solr/browse
+```
 
 ### /select Interface vs /browse Inferface
 
@@ -34,4 +40,3 @@ e.g.
           title^10.0 description^5.0 keywords^5.0 author^2.0 resourcename^1.0
        </str>
        ```
-       
